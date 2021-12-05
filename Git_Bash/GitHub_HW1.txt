@@ -1,0 +1,184 @@
+JSON
+ 4. Создать внешний репозиторий c названием JSON.
+ https://github.com/JuliaMarche/JSON
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+ git clone 
+ 6. Внутри локального JSON создать файл “new.json”.
+ touch new.json
+ 7. Добавить файл под гит.
+ git add new.json
+ 8. Закоммитить файл.
+ git commit -m "Add new json file"
+ 9. Отправить файл на внешний GitHub репозиторий.
+ git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+vim new.json
+i-insert
+{
+"name":"Julia Marchenko",
+"age":27,
+"pets":1,
+"salary":"1000$"
+}
+:wq
+ 11. Отправить изменения на внешний репозиторий.
+ git commit -am "Update json file"
+ git push
+ 12. Создать файл preferences.json
+ touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+vim preferences.json
+i-insert
+{
+"Film":"The Devil wears Prada",
+"TV_Show":"The Umbrella Academy",
+"Favorite_dish":"Bibimbap",
+"Favorite_season":"Summer",
+"Country":"South Korea"
+}
+:wq
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+touch skills.json
+vim skills.json
+i-insert
+{
+"skills":{
+"QA_Tools":"Postman, Charles, DevTools, SQL"
+"Theory":"Базовая теория, клиент-серверная архитектура, HTTP, JSON, XML"
+}
+}
+:wq
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+ git add .
+ git commit -m "Add new json file"  
+ git push
+ 16. На веб интерфейсе создать файл bug_report.json.
+ https://github.com/JuliaMarche/JSON/blob/main/bug_report.json
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+ git pull
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+ https://github.com/JuliaMarche/XML
+ 22. Клонировать репозиторий XML на локальный компьютер.
+ git clone 
+ 23. Внутри локального XML создать файл “new.xml”.
+ touch new.xml
+ 24. Добавить файл под гит.
+ git add new.xml
+ 25. Закоммитить файл.
+ git commit -m "Add new xml file"
+ 26. Отправить файл на внешний GitHub репозиторий.
+ git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+vim new.xml
+i
+<?xml version="1.0"?>
+<person>
+	<first_name> Julia </first_name>
+	<last_name> Marchenko </last_name>
+	<age> 27 </age>
+	<pets> 1 dog </pets>
+	<salary> 1500$ </salary>
+</person>
+:wq
+ 28. Отправить изменения на внешний репозиторий.
+ git commit -am "Update new.xml file"
+ git push
+ 29. Создать файл preferences.xml
+ touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+vim preferences.xml
+i
+<?xml version="1.0"?>
+<favorite>
+	<film> The Avengers </film>
+	<tv_show> Attack on Titan </tv_show>
+	<dish> Tteokbokki </dish>
+	<season> Summer </season>
+	<country> Japan </country>
+</favorite>
+:wq
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+touch skills.xml 
+vim skills.xml
+i
+<?xml version="1.0"?>
+<skills>
+	<QA_Tools> Postman,Charles,DevTools,SQL,Jmeter     </QA_Tools>
+	<Theory> Базовая теория, Клиент-серверная архитектура, HTTP, JSON, XML </Theory>
+</skills>
+:wq
+ 32. Сделать коммит в одну строку.
+git add .
+git commit -m "Add new xml files"
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+ 34. На веб интерфейсе создать файл bug_report.xml.
+https://github.com/JuliaMarche/XML/blob/main/bug_report.xml
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 38. Синхронизировать внешний и локальный репозиторий XML
+ git pull
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT.
+ https://github.com/JuliaMarche/TXT
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+ git clone
+ 3. Внутри локального TXT создать файл “new.txt”.
+ touch new.txt
+ 4. Добавить файл под гит.
+ git add new.txt
+ 5. Закоммитить файл.
+ git commit -m "Add new txt file"
+ 6. Отправить файл на внешний GitHub репозиторий.
+ git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+ vim new.txt
+ i-insert
+ Марченко Юлия Сергеевна
+ 27 лет 
+ 1 собака
+ 5000$
+ :wq
+ 8. Отправить изменения на внешний репозиторий.
+ git commit -am "Update txt file"
+ git push
+ 9. Создать файл preferences.txt
+ touch preferences.txt
+ 10. В файл preferences.txt добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+vim preferences.txt
+i
+Фильм: Ходячий замок
+Сериал: W:между двух миров
+Блюдо: Борщ
+Время года: Все еще лето
+Страна: Китай
+:wq
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+vim skills.txt
+i
+1. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC
+2. Что такое клиент серверная архитектура.
+3. Методы запросов на сервер.
+4. Ответы сервера.
+и т.д.
+:wq
+ 12. Сделать коммит в одну строку.
+ git add .
+ git commit -m "Add new files" 
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+ git push
+ 14. На веб интерфейсе создать файл bug_report.txt.
+ https://github.com/JuliaMarche/TXT/blob/main/bug_report.txt
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+ git pull
